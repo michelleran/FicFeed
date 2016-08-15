@@ -1,5 +1,5 @@
 # FicFeed
-A simple, unofficial app to browse & track tags on AO3.
+A simple, unofficial app to browse & track tags on AO3, using RSS feeds.
 
 ![](http://i.imgur.com/pmkdV0N.jpg)
 ![](http://i.imgur.com/CMryoag.jpg)
