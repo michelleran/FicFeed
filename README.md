@@ -26,3 +26,7 @@ FicFeed has two components: the front-end app and the notification server.
 
 ## Notes
 The API key in the notification server, as well as `GoogleServices-Info.plist` have been omitted. Additionally, text files that the notification server uses have been omitted for practicality (or lack thereof).
+
+## Links
+- iOS App Store (coming soon)
+- [Tumblr](http://ficfeed.tumblr.com/) (support page)
