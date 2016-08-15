@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		320A39651D46B74500D64859 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320A39641D46B74500D64859 /* SearchController.swift */; };
+		322F00EC1D456F5C00B788FC /* FicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322F00EB1D456F5C00B788FC /* FicController.swift */; };
+		32356A471D45331C0017ED94 /* Extrekt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32356A461D45331C0017ED94 /* Extrekt.swift */; };
+		32356A491D4533F20017ED94 /* FicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32356A481D4533F20017ED94 /* FicCell.swift */; };
+		328B029A1D53E51100969DED /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 328B02991D53E51100969DED /* GoogleService-Info.plist */; };
+		328C7F6C1D5941940039CBDA /* Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328C7F6B1D5941940039CBDA /* Popup.swift */; };
+		32D937081D493D8A00144211 /* MyFeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D937071D493D8A00144211 /* MyFeedController.swift */; };
+		32E508251D54C826000DDEB3 /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E508241D54C826000DDEB3 /* Cloud.swift */; };
+		32E508271D54CD16000DDEB3 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E508261D54CD16000DDEB3 /* Info.swift */; };
+		32E508291D557915000DDEB3 /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E508281D557915000DDEB3 /* TabController.swift */; };
+		32FBA8C61D45306700B00CC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FBA8C51D45306700B00CC0 /* AppDelegate.swift */; };
+		32FBA8C81D45306700B00CC0 /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FBA8C71D45306700B00CC0 /* FeedController.swift */; };
+		32FBA8CB1D45306700B00CC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FBA8C91D45306700B00CC0 /* Main.storyboard */; };
+		32FBA8CD1D45306700B00CC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32FBA8CC1D45306700B00CC0 /* Assets.xcassets */; };
+		32FBA8D01D45306700B00CC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FBA8CE1D45306700B00CC0 /* LaunchScreen.storyboard */; };
+		32FBA8DB1D45306700B00CC0 /* FicFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FBA8DA1D45306700B00CC0 /* FicFeedTests.swift */; };
+		32FBA8E61D45306700B00CC0 /* FicFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FBA8E51D45306700B00CC0 /* FicFeedUITests.swift */; };
+		C9C85599E19F32685C009517 /* Pods_FicFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5D65EB8D77792393BD41A2 /* Pods_FicFeed.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32FBA8D71D45306700B00CC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32FBA8BA1D45306700B00CC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32FBA8C11D45306700B00CC0;
+			remoteInfo = FicFeed;
+		};
+		32FBA8E21D45306700B00CC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32FBA8BA1D45306700B00CC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32FBA8C11D45306700B00CC0;
+			remoteInfo = FicFeed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DDAA8C6C93053F9DF4B4FF4 /* Pods-FicFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FicFeed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FicFeed/Pods-FicFeed.debug.xcconfig"; sourceTree = "<group>"; };
+		21737678E591D6C438B97CF4 /* Pods-FicFeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FicFeed.release.xcconfig"; path = "Pods/Target Support Files/Pods-FicFeed/Pods-FicFeed.release.xcconfig"; sourceTree = "<group>"; };
+		320A39641D46B74500D64859 /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		322F00EB1D456F5C00B788FC /* FicController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FicController.swift; sourceTree = "<group>"; };
+		32356A461D45331C0017ED94 /* Extrekt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extrekt.swift; sourceTree = "<group>"; };
+		32356A481D4533F20017ED94 /* FicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FicCell.swift; sourceTree = "<group>"; };
+		328B02991D53E51100969DED /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		328C7F6B1D5941940039CBDA /* Popup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Popup.swift; sourceTree = "<group>"; };
+		32D937071D493D8A00144211 /* MyFeedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFeedController.swift; sourceTree = "<group>"; };
+		32E508241D54C826000DDEB3 /* Cloud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cloud.swift; sourceTree = "<group>"; };
+		32E508261D54CD16000DDEB3 /* Info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		32E508281D557915000DDEB3 /* TabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
+		32FBA8C21D45306700B00CC0 /* FicFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FicFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FBA8C51D45306700B00CC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32FBA8C71D45306700B00CC0 /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		32FBA8CA1D45306700B00CC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32FBA8CC1D45306700B00CC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32FBA8CF1D45306700B00CC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32FBA8D11D45306700B00CC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32FBA8D61D45306700B00CC0 /* FicFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FicFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FBA8DA1D45306700B00CC0 /* FicFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FicFeedTests.swift; sourceTree = "<group>"; };
+		32FBA8DC1D45306700B00CC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32FBA8E11D45306700B00CC0 /* FicFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FicFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FBA8E51D45306700B00CC0 /* FicFeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FicFeedUITests.swift; sourceTree = "<group>"; };
+		32FBA8E71D45306700B00CC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE5D65EB8D77792393BD41A2 /* Pods_FicFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FicFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32FBA8BF1D45306700B00CC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C85599E19F32685C009517 /* Pods_FicFeed.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FBA8D31D45306700B00CC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FBA8DE1D45306700B00CC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		328C7F6A1D57C4B70039CBDA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				32E508241D54C826000DDEB3 /* Cloud.swift */,
+				32E508261D54CD16000DDEB3 /* Info.swift */,
+				32356A461D45331C0017ED94 /* Extrekt.swift */,
+				328C7F6B1D5941940039CBDA /* Popup.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		32FBA8B91D45306700B00CC0 = {
+			isa = PBXGroup;
+			children = (
+				32FBA8C41D45306700B00CC0 /* FicFeed */,
+				32FBA8D91D45306700B00CC0 /* FicFeedTests */,
+				32FBA8E41D45306700B00CC0 /* FicFeedUITests */,
+				32FBA8C31D45306700B00CC0 /* Products */,
+				D2AB562B2A4EC75D8C5A6A5F /* Pods */,
+				CFDCB2F2D67108F65C5937B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		32FBA8C31D45306700B00CC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32FBA8C21D45306700B00CC0 /* FicFeed.app */,
+				32FBA8D61D45306700B00CC0 /* FicFeedTests.xctest */,
+				32FBA8E11D45306700B00CC0 /* FicFeedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32FBA8C41D45306700B00CC0 /* FicFeed */ = {
+			isa = PBXGroup;
+			children = (
+				32FBA8C51D45306700B00CC0 /* AppDelegate.swift */,
+				328C7F6A1D57C4B70039CBDA /* Core */,
+				320A39641D46B74500D64859 /* SearchController.swift */,
+				32D937071D493D8A00144211 /* MyFeedController.swift */,
+				32FBA8C71D45306700B00CC0 /* FeedController.swift */,
+				32356A481D4533F20017ED94 /* FicCell.swift */,
+				322F00EB1D456F5C00B788FC /* FicController.swift */,
+				32E508281D557915000DDEB3 /* TabController.swift */,
+				32FBA8C91D45306700B00CC0 /* Main.storyboard */,
+				32FBA8CC1D45306700B00CC0 /* Assets.xcassets */,
+				32FBA8CE1D45306700B00CC0 /* LaunchScreen.storyboard */,
+				328B02991D53E51100969DED /* GoogleService-Info.plist */,
+				32FBA8D11D45306700B00CC0 /* Info.plist */,
+			);
+			path = FicFeed;
+			sourceTree = "<group>";
+		};
+		32FBA8D91D45306700B00CC0 /* FicFeedTests */ = {
+			isa = PBXGroup;
+			children = (
+				32FBA8DA1D45306700B00CC0 /* FicFeedTests.swift */,
+				32FBA8DC1D45306700B00CC0 /* Info.plist */,
+			);
+			path = FicFeedTests;
+			sourceTree = "<group>";
+		};
+		32FBA8E41D45306700B00CC0 /* FicFeedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32FBA8E51D45306700B00CC0 /* FicFeedUITests.swift */,
+				32FBA8E71D45306700B00CC0 /* Info.plist */,
+			);
+			path = FicFeedUITests;
+			sourceTree = "<group>";
+		};
+		CFDCB2F2D67108F65C5937B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE5D65EB8D77792393BD41A2 /* Pods_FicFeed.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2AB562B2A4EC75D8C5A6A5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DDAA8C6C93053F9DF4B4FF4 /* Pods-FicFeed.debug.xcconfig */,
+				21737678E591D6C438B97CF4 /* Pods-FicFeed.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32FBA8C11D45306700B00CC0 /* FicFeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32FBA8EA1D45306700B00CC0 /* Build configuration list for PBXNativeTarget "FicFeed" */;
+			buildPhases = (
+				5DBCF7C8FA018533F1570402 /* Check Pods Manifest.lock */,
+				32FBA8BE1D45306700B00CC0 /* Sources */,
+				32FBA8BF1D45306700B00CC0 /* Frameworks */,
+				32FBA8C01D45306700B00CC0 /* Resources */,
+				D0D38150F9899DC5F5282BC7 /* Embed Pods Frameworks */,
+				27D92AD932DB2FEF369887E9 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FicFeed;
+			productName = FicFeed;
+			productReference = 32FBA8C21D45306700B00CC0 /* FicFeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32FBA8D51D45306700B00CC0 /* FicFeedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32FBA8ED1D45306700B00CC0 /* Build configuration list for PBXNativeTarget "FicFeedTests" */;
+			buildPhases = (
+				32FBA8D21D45306700B00CC0 /* Sources */,
+				32FBA8D31D45306700B00CC0 /* Frameworks */,
+				32FBA8D41D45306700B00CC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32FBA8D81D45306700B00CC0 /* PBXTargetDependency */,
+			);
+			name = FicFeedTests;
+			productName = FicFeedTests;
+			productReference = 32FBA8D61D45306700B00CC0 /* FicFeedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32FBA8E01D45306700B00CC0 /* FicFeedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32FBA8F01D45306700B00CC0 /* Build configuration list for PBXNativeTarget "FicFeedUITests" */;
+			buildPhases = (
+				32FBA8DD1D45306700B00CC0 /* Sources */,
+				32FBA8DE1D45306700B00CC0 /* Frameworks */,
+				32FBA8DF1D45306700B00CC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32FBA8E31D45306700B00CC0 /* PBXTargetDependency */,
+			);
+			name = FicFeedUITests;
+			productName = FicFeedUITests;
+			productReference = 32FBA8E11D45306700B00CC0 /* FicFeedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32FBA8BA1D45306700B00CC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Michelle Ran LLC";
+				TargetAttributes = {
+					32FBA8C11D45306700B00CC0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 65799YHL9S;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					32FBA8D51D45306700B00CC0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 32FBA8C11D45306700B00CC0;
+					};
+					32FBA8E01D45306700B00CC0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 32FBA8C11D45306700B00CC0;
+					};
+				};
+			};
+			buildConfigurationList = 32FBA8BD1D45306700B00CC0 /* Build configuration list for PBXProject "FicFeed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32FBA8B91D45306700B00CC0;
+			productRefGroup = 32FBA8C31D45306700B00CC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32FBA8C11D45306700B00CC0 /* FicFeed */,
+				32FBA8D51D45306700B00CC0 /* FicFeedTests */,
+				32FBA8E01D45306700B00CC0 /* FicFeedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32FBA8C01D45306700B00CC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FBA8D01D45306700B00CC0 /* LaunchScreen.storyboard in Resources */,
+				32FBA8CD1D45306700B00CC0 /* Assets.xcassets in Resources */,
+				328B029A1D53E51100969DED /* GoogleService-Info.plist in Resources */,
+				32FBA8CB1D45306700B00CC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FBA8D41D45306700B00CC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FBA8DF1D45306700B00CC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27D92AD932DB2FEF369887E9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FicFeed/Pods-FicFeed-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DBCF7C8FA018533F1570402 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D0D38150F9899DC5F5282BC7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FicFeed/Pods-FicFeed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32FBA8BE1D45306700B00CC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FBA8C81D45306700B00CC0 /* FeedController.swift in Sources */,
+				32E508251D54C826000DDEB3 /* Cloud.swift in Sources */,
+				320A39651D46B74500D64859 /* SearchController.swift in Sources */,
+				32E508271D54CD16000DDEB3 /* Info.swift in Sources */,
+				32FBA8C61D45306700B00CC0 /* AppDelegate.swift in Sources */,
+				32E508291D557915000DDEB3 /* TabController.swift in Sources */,
+				322F00EC1D456F5C00B788FC /* FicController.swift in Sources */,
+				32356A491D4533F20017ED94 /* FicCell.swift in Sources */,
+				32D937081D493D8A00144211 /* MyFeedController.swift in Sources */,
+				328C7F6C1D5941940039CBDA /* Popup.swift in Sources */,
+				32356A471D45331C0017ED94 /* Extrekt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FBA8D21D45306700B00CC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FBA8DB1D45306700B00CC0 /* FicFeedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FBA8DD1D45306700B00CC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FBA8E61D45306700B00CC0 /* FicFeedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32FBA8D81D45306700B00CC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32FBA8C11D45306700B00CC0 /* FicFeed */;
+			targetProxy = 32FBA8D71D45306700B00CC0 /* PBXContainerItemProxy */;
+		};
+		32FBA8E31D45306700B00CC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32FBA8C11D45306700B00CC0 /* FicFeed */;
+			targetProxy = 32FBA8E21D45306700B00CC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32FBA8C91D45306700B00CC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32FBA8CA1D45306700B00CC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32FBA8CE1D45306700B00CC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32FBA8CF1D45306700B00CC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32FBA8E81D45306700B00CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32FBA8E91D45306700B00CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32FBA8EB1D45306700B00CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DDAA8C6C93053F9DF4B4FF4 /* Pods-FicFeed.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FicFeed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mran.FicFeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32FBA8EC1D45306700B00CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21737678E591D6C438B97CF4 /* Pods-FicFeed.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FicFeed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mran.FicFeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		32FBA8EE1D45306700B00CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FicFeedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mran.FicFeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FicFeed.app/FicFeed";
+			};
+			name = Debug;
+		};
+		32FBA8EF1D45306700B00CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FicFeedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mran.FicFeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FicFeed.app/FicFeed";
+			};
+			name = Release;
+		};
+		32FBA8F11D45306700B00CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FicFeedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mran.FicFeedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FicFeed;
+			};
+			name = Debug;
+		};
+		32FBA8F21D45306700B00CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FicFeedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mran.FicFeedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FicFeed;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32FBA8BD1D45306700B00CC0 /* Build configuration list for PBXProject "FicFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FBA8E81D45306700B00CC0 /* Debug */,
+				32FBA8E91D45306700B00CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32FBA8EA1D45306700B00CC0 /* Build configuration list for PBXNativeTarget "FicFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FBA8EB1D45306700B00CC0 /* Debug */,
+				32FBA8EC1D45306700B00CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32FBA8ED1D45306700B00CC0 /* Build configuration list for PBXNativeTarget "FicFeedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FBA8EE1D45306700B00CC0 /* Debug */,
+				32FBA8EF1D45306700B00CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32FBA8F01D45306700B00CC0 /* Build configuration list for PBXNativeTarget "FicFeedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FBA8F11D45306700B00CC0 /* Debug */,
+				32FBA8F21D45306700B00CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32FBA8BA1D45306700B00CC0 /* Project object */;
+}
